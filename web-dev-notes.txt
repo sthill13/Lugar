@@ -1,0 +1,17 @@
+Making a new section:
+
+1. Wrapper div
+2. container inside that wrapper div
+3. all of the content inside that container by making a new div
+4. image will always be in a div, you will not give width and height in px to actual img tag
+5. Divide the section or make them in group as much as you can with flex, or calculating width in percentages
+6. Don't copy the absolute values from figma
+position: absolute;
+width: 540px;
+height: 174px;
+left: 735px;
+top: 999px;
+7. Don't use margin-top, instead use margin-bottom of parent element, or padding-top.
+8. To make the element move out of normal flow, we give it position: absolute. By default it will move in the whole page. So, we give it's parent element may be (just assuming scenario) a postion: relative, so it will move only in that element.
+9. When dividing the section in two halves, give parent element 100% width and child calc(100%/2)
+10. Section spacing will be applied to section that means the parent element of all the content of that section even before the container.

@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: #1E3240;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #AFD4E2;
+  padding: 40px 0;
+  height: 100vh;
+}
+
+header nav a.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22.59px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1E3240;
+}
+
+header ul.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+header ul.nav-list li:not(:last-child) {
+  margin-right: 70px;
+}
+
+header ul.nav-list li a {
+  color: #1E3240;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.57px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 108px;
+}
+
+.hero-left{
+  max-width: 50%;
+}
+
+.tagline {}
+
+.tagline h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 89px;
+  line-height: 120%;
+  margin-bottom: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tagline p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.projects {
+  background-color: #1E3240;
+  color: #FFFFFF;
+  padding: 18px 24px;
+  /* border-style: solid;
+  border-color: #1E3240;
+  border-radius: 1px; */
+  border: 1px solid #1E3240;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.contact-btn {
+  background-color: transparent;
+  color: #1E3240;
+  padding: 18px 24px;
+  border: 1px solid #1E3240;
+  cursor: pointer;
+}
+
+.awards-img {
+  margin-right: 125px;
+  height: 500px;
+}
+
+.awards-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.award-tagline {
+
+
+  /* margin-top: 200px; */
+}
+
+.awards {
+  padding: 150px 0px 150px 0px;
+
+}
+
+.awards-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.award-item {
+  width: calc(100%/2 - 65px);
+}
+
+.latin {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #BDBDBD;
+  margin-bottom: 40px;
+}
+
+.award-item.award-tagline h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+  margin-bottom: 40px;
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats .stat strong {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+
+  text-transform: uppercase;
+
+  color: #AFD4E2;
+
+}
+
+.stats .stat span {
+  display: inline-block;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.project-pictures {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vintage-villa,
+.tanga-villa,
+.penthouse {
+  width: calc(100%/3 - 20px);
+  position: relative;
+}
+
+.vintage-villa,
+.tanga-villa {
+  margin-right: 30px;
+}
+
+.project-tagline h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.project-tagline p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+
+
+  /* Gray */
+
+  color: #BDBDBD;
+  margin-bottom: 115px;
+}
+
+
+.address-box strong {
+  margin-bottom: 6px;
+  display: block;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.address-box p {
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+.address-box p span {
+  margin-right: 4px;
+}
+
+.vintage-villa .address-box,
+.tanga-villa .address-box,
+.penthouse .address-box {
+  position: absolute;
+  bottom: 6px;
+  background-color: white;
+  width: 290px;
+  margin: auto;
+  transform: translate(38px, 10px);
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.smiles-tagline h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.smiles-tagline p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  text-align: center;
+
+  /* Dark */
+
+  color: #1E3240;
+
+}
+
+.smiles-tagline {
+  margin-bottom: 78px;
+}
+
+.ongoing-projects {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.smiles {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.smiles-box {
+  display: flex;
+}
+
+.smiles-img {
+  margin-right: 125px;
+  width: 40%;
+}
+
+.smiles-box,
+.smiles-content {
+  justify-content: center;
+}
+
+.smiles-content {
+  width: 60%;
+}
+
+.dream-house h3 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 18px;
+  /* Dark */
+
+  color: #1E3240;
+
+}
+
+.dream-house p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 18px;
+  /* or 29px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.artist strong {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  text-transform: capitalize;
+
+  /* identical to box height, or 29px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.artist span {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  display: block;
+  text-transform: capitalize;
+  /* identical to box height, or 22px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+}
+
+.dream-house {
+  position: relative;
+  padding-top: 40px;
+}
+
+.dream-house::before {
+  content: "";
+  background-image: url(images/quotations.png);
+  position: absolute;
+  top: 0;
+  width: 49.27px;
+  height: 27.26px;
+}
+
+.contact-section {
+  display: flex;
+  
+}
+
+.contact-img {
+  margin-right: 125px;
+  width: 40%;
+  
+}
+
+.contact-img img {
+  height: 100%
+
+}
+
+.contact-form h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+
+  /* Dark */
+
+  color: #1E3240;
+
+}
+
+.contact-form p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  margin-bottom: 50px;
+  /* identical to box height, or 22px */
+
+
+  /* Gray */
+
+  color: #BDBDBD;
+
+}
+
+.contact-form {
+  width: 60%;
+}
+.contact {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.input-boxes {
+  width: 100%;
+}
+
+.input-boxes input {
+  width: calc(100%/2 - 18px);
+  margin-bottom: 18px;
+  margin-right: 30px;
+  padding: 14px 0px;
+  color: #BDBDBD;
+  padding-left: 18px;
+}
+
+.input-boxes input::placeholder {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  /* Gray */
+
+  color: #BDBDBD;
+
+}
+
+.input-boxes input:nth-child(even) {
+  margin-right: 0;
+}
+
+.textarea-wrapper {
+  width: 100%;
+  margin-bottom: 40px;
+}
+form textarea {
+  width: 100%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+  padding-left: 18px;
+  padding-top: 14px;
+  /* Gray */
+
+  color: #BDBDBD;
+}
+
+form textarea::placeholder {
+  width: 100%;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+
+  /* Gray */
+
+  color: #BDBDBD;
+}
+form .textarea-wrapper textarea:focus {
+  outline: none;
+
+}
+.input-boxes input:focus {
+  outline: none;
+}
+form button {
+  padding: 18px 24px;
+  background: #1E3240;
+  color: #FFFFFF;
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+}
+footer {
+background-color: #1E3240;
+list-style: none;
+}
+
+.lugar-contact-info {
+  display: flex;
+  
+  
+}
+.footer-contact h3 {
+margin-bottom: 12px;
+}
+.footer-contact li {
+  margin-bottom: 12px;
+  vertical-align: top;
+}
+.lugar-contact-info h3 {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* White */
+
+color: #FFFFFF;
+}
+.lugar-contact-info li a , .lugar-contact-info li{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+/* Gray */
+
+color: #BDBDBD;
+
+}
+.footer-hyperlinks {
+  display: flex;
+}
+.lugar-contact-info {
+  justify-content: space-between;
+  margin-bottom: 119px;
+}
+.lugar-contact-info .footer-hyperlinks .link-column:not(:last-child){
+  margin-right: 75px;
+}
+.footer-hyperlinks li:not(:last-child), .footer-hyperlinks h3 {
+  margin-bottom: 12px;
+}
+
+.footer-contact span {
+  margin-right: 8px;
+}
+.footer-contact li .business-address {
+  text-transform: capitalize;
+  max-width: 160px;
+  display: inline-block;
+  vertical-align: top;
+}
+footer .container .copyright {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Gray */
+
+color: #BDBDBD;
+
+}
+footer {
+  padding-top: 90px;
+  padding-bottom: 45px;
+}

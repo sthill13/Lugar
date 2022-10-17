@@ -640,3 +640,12 @@ footer {
   padding-top: 90px;
   padding-bottom: 45px;
 }
+
+@media screen and (max-width: 992px) {
+  .container{
+    max-width: 960px;
+  }
+  header{
+    height: initial;
+  }
+}

@@ -691,5 +691,65 @@ padding: 15px;
 }
 }
 @media screen and (max-width: 768px) {
-  
+  .container{
+    max-width: 540px;
+  }
+  .contact-section {
+    align-items: center;
+  }
+  .contact-img {
+    margin-right: 40px;
+  }
+  .tagline h1 {
+    font-size: 48px;
+  }
+  .tagline p {
+    font-size: 16px;
+  }
+  .buttons-wrap {
+    display: flex;
+  }
+  .stats .stat strong {
+    font-size: 10px;
+  }
+  .stats .stat span {
+    font-size: 20px;
+    display: block;
+  }
+  .awards-img {
+    margin-right: 40px;
+  }
+  .award-item {
+    width: calc(100%/2 - 20px);
+  }
+  .latin {
+    font-size: 16px;
+  }
+  .project-tagline p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .smiles-tagline {
+    margin-bottom: 30px;
+  }
+  .smiles-tagline p {
+    font-size: 16px;
+  }
+  .smiles-img {
+    margin-right: 40px;
+   
+  }
+  .smiles-box {
+    align-items: center;
+  }
+  .dream-house p {
+    font-size: 16px;
+  }
+  .lugar-contact-info li a, .lugar-contact-info li {
+    font-size: 11px;
+  }
+  .footer-contact li {
+    display: flex;
+  }
 }
+

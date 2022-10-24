@@ -752,4 +752,12 @@ padding: 15px;
     display: flex;
   }
 }
+@media screen and (max-width: 576px) {
+  .container{
+    max-width: 98%;
+  }
+  header ul.nav-list {
+    flex-wrap: wrap;
+  }
+}
 

@@ -15,3 +15,4 @@ top: 999px;
 8. To make the element move out of normal flow, we give it position: absolute. By default it will move in the whole page. So, we give it's parent element may be (just assuming scenario) a postion: relative, so it will move only in that element.
 9. When dividing the section in two halves, give parent element 100% width and child calc(100%/2)
 10. Section spacing will be applied to section that means the parent element of all the content of that section even before the container.
+11. flex-wrap moves the overfow items to next line

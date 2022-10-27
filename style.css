@@ -352,7 +352,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 120%;
   margin-bottom: 18px;
   /* Dark */
 
@@ -754,10 +754,79 @@ padding: 15px;
 }
 @media screen and (max-width: 576px) {
   .container{
-    max-width: 98%;
+   padding: 0 16px;
   }
   header ul.nav-list {
     flex-wrap: wrap;
   }
+  .lugar-contact-info {
+    flex-wrap: wrap;
+  }
+ 
+  header ul.nav-list li:not(:last-child) {
+    margin: 0;
+  }
+  header ul.nav-list {
+    display: initial;
+    text-align: right;
+  }
+  header, .awards, .smiles, .contact, footer, .ongoing-projects  {
+    padding: 20px 0;
+  }
+  header nav {
+    margin-bottom: 30px;
+  }
+  .tagline h1 {
+    font-size: 34px;
+  }
+  .hero-left {
+    max-width: 100%;
+  }
+  .award-item {
+    width: 100%;
+  }
+  .awards-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .award-item.award-tagline h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.latin {
+  margin-bottom: 20px;
+}
+.stats {
+  justify-content: space-between;
+}
+.project-tagline h2 {
+  font-size: 24px;
+}
+.project-tagline p {
+  margin-bottom: 20px;
+}
+.project-pictures {
+  
+  display: initial;
+}
+.vintage-villa, .tanga-villa, .penthouse {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.penthouse {
+  margin-bottom: 30px;
+}
+
+.vintage-villa, .tanga-villa {
+  margin-right: 0;
+
+}
+.smiles-tagline h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.dream-house h3 {
+  font-size: 20px;
+}
 }
 

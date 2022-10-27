@@ -761,6 +761,7 @@ padding: 15px;
   }
   .lugar-contact-info {
     flex-wrap: wrap;
+    margin-bottom: 40px;
   }
  
   header ul.nav-list li:not(:last-child) {
@@ -788,6 +789,7 @@ padding: 15px;
   .awards-img {
     margin-right: 0;
     margin-bottom: 20px;
+    max-height: 200px;
   }
   .award-item.award-tagline h2 {
     font-size: 24px;
@@ -821,6 +823,14 @@ padding: 15px;
   margin-right: 0;
 
 }
+.vintage-img, .tanga-img, .penthouse-img {
+  height: 200px;
+}
+.vintage-img img, .tanga-img img, .penthouse-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .smiles-tagline h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -828,5 +838,60 @@ padding: 15px;
 .dream-house h3 {
   font-size: 20px;
 }
+.dream-house::before {
+  background-size: 25px;
+  background-repeat: no-repeat;
+}
+.dream-house {
+  padding-top: 25px;
+}
+.artist strong {
+  font-size: 17px;
+}
+.artist span {
+  font-size: 15px;
+}
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-header h2 {
+  margin-bottom: 10px;
+}
+.contact-img {
+  height: 200px;
+  
+}
+.contact-img img {
+  height: 100%;
+  object-fit: cover;
+}
+.contact-section {
+  display: initial;
+  width: 100%;
+}
+.contact-img, .contact-form {
+  width: 100%;
+}
+.contact-img {
+  margin-bottom: 20px;
+}
+.input-boxes input {
+  width: calc(100%/2 - 10px);
+  margin-right: 14px;
+}
+.textarea-wrapper {
+  margin-bottom: 16px;
+}
+.smiles-box {
+  display: initial;
+}
+.smiles-img, .smiles-content {
+  width: 100%;
+}
+.smiles-img {
+  margin-bottom: 20px;
+}
+
 }
 

@@ -16,3 +16,4 @@ top: 999px;
 9. When dividing the section in two halves, give parent element 100% width and child calc(100%/2)
 10. Section spacing will be applied to section that means the parent element of all the content of that section even before the container.
 11. flex-wrap moves the overfow items to next line
+12. display: initial makes the element back to origin
